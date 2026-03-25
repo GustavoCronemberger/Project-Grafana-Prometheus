@@ -1,0 +1,25 @@
+# Pastas de Build (Maven)
+target/
+*/target/
+*.class
+
+# Configurações de IDEs (IntelliJ, Eclipse, etc)
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+
+# Volumes e Dados do Docker (MUITO IMPORTANTE)
+prometheus_data/
+*/prometheus_data/
+grafana_data/
+*/grafana_data/
+grafana/grafana.db
+grafana/plugins/
+mysql_data/
+*/mysql_data/
+
+# Arquivos temporários do SO (Windows/Mac)
+Thumbs.db
+.DS_Store
