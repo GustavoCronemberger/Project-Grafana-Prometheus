@@ -16,7 +16,7 @@ O objetivo do projeto é demonstrar a implementação de métricas de observabil
 * **Docker & Docker Compose:** Orquestração e conteinerização de todos os serviços.
 * **Prometheus:** Coleta e armazenamento de métricas (Time Series Database).
 * **Grafana:** Criação de dashboards visuais interativos para análise dos dados.
-* **Alertmanager:** Gerenciamento e roteamento de alertas do Prometheus (com integração para notificações).
+* **Alertmanager & Slack:** Gerenciamento, roteamento de alertas gerados pelo Prometheus e envio de notificações em tempo real através de Incoming Webhooks.
 
 ## ⚙️ Como executar o projeto localmente
 
